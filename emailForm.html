@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--Noting that these are the only meta attributes I recognize, I'm not actually sure that I need the charset or not -->
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>Andrew's Portfolio</title>
+  <!--I doubt that I need the normalize css sheet for this simple of a project, but I put it in just in case -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+  rel="stylesheet"
+  type="text/css"
+/>
+  <!-- the link to my css sheet for styling -->
+<link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+<form
+  action="https://formspree.io/mvowyvdb"
+  method="POST"
+>
+  <label for="name">Name:</label>
+  <input id="name" type="text" name="name" placeholder="Your name here">
+  <label>Your email:</label>
+  <input type="text" name="_replyto" placeholder="Your Email here">
+  <label>Your Message:</label>
+  <textarea name="message" placeholder="Type your message here"></textarea>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
+</body>
