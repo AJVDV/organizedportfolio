@@ -1,14 +1,72 @@
+.pageContainer {
+  background-color: #F1FAEE;
+}
+
 main {
   margin-top: 50px;
 }
+
+hr {
+  height: 8px;
+  background-color: #1D3557;
+}
+
 main h1 {
   margin: 20px 20px;
   text align: center;
-  
+  font-family: "Arial Black";
+  font-size: 60px;
+  color: #A8DADC;
+}
 
+main h2 {
+  margin: 15px 0 15px 0;
+  border-bottom: 2px solid #1D3557;
+  font-family: "Trebuchet MS";
+  font-size: 20px;
+  color: #E63946;
+}
 
+main h3 {
+  margin: 5px 5px 5px 5px;
+  border-bottom: 1px solid #1D3557;
+  font-family: "Trebuchet MS";
+  font-size: 15px;
+  color: #457B9D
+}
 
+main p {
+  font-family: "Lucidia Console";
+  margin-top: 5px;
+  color: #1D3557;
+}
 
+.image-circle {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
 
 @media all and (min-width: 600px){
+  section {
+    padding: 0 10%;
+  }
   
+  .group {
+    flex-direction: row;
+  }
+}
