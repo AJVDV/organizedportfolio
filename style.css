@@ -11,7 +11,7 @@ hr {
   background-color: #1D3557;
 }
 
-main h1 {
+h1 {
   margin: 20px 20px;
   text align: center;
   font-family: "Arial Black";
@@ -19,7 +19,7 @@ main h1 {
   color: #A8DADC;
 }
 
-main h2 {
+h2 {
   margin: 15px 0 15px 0;
   border-bottom: 2px solid #1D3557;
   font-family: "Trebuchet MS";
@@ -27,7 +27,7 @@ main h2 {
   color: #E63946;
 }
 
-main h3 {
+h3 {
   margin: 5px 5px 5px 5px;
   border-bottom: 1px solid #1D3557;
   font-family: "Trebuchet MS";
@@ -35,7 +35,7 @@ main h3 {
   color: #457B9D
 }
 
-main p {
+p {
   font-family: "Lucidia Console";
   margin-top: 5px;
   color: #1D3557;
