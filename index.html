@@ -1,1 +1,58 @@
-
+(electric-indent-mode -1)
+(add-hook 'after-change-major-mode-hook (lambda() (electric-indent-mode -1)))
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- I understand how the meta attributes work better now, but I'm still effectively using the same code -->
+<meta charset="utf-8"/>
+<meta name="viewport" content="width-device-width"/>
+<title>Andrew's Portfolio</title>
+<!--the link to the normalizing css sheet for some standard formatting.-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+<!--link to my css stylesheet-->
+<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <div class="pageContainer">
+    <header>
+      <div id="header">
+        <h1>Andrew VanDerVeen</h1>
+        <h2>Novice Fullstack Software Engineer</h2>
+        <nav>
+          <a href="#header">Top</a>
+          <a href="#about-me">About Me</a>
+          <a href="#contact">Contact</a>
+          <a href="#projects">Projects</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <hr>
+      <!--
+the new about me section to include my passion for the web,
+demonstrate my desire to work on a team with great programmers,
+show my personality outside of coding,
+list of services I can or want to provide to a client.
+-->
+      <div id="about-me">
+        <div class="about-me-header">
+          <h2>About Me</h2>
+        </div>
+        <section>
+          <div class="group">
+            <div class="item>
+              <div class="image-container">
+                <img src="images/20200804_103513.jpg" alt="Photo of Andrew" class="image-circle"/>
+              </div>
+            </div>
+            <div class="item">
+              <h3>What brought me to this field</h3>
+              <p>Like many from my generation, and especially those after, a huge amount of my time is spent within the realms of digital interaction and consumption.
+               It only makes sense that after having so much interest in web interactions, video games, and the digital age as a whole that I would become drawn to 
+               software engineering and coding as a career. Finding that I have some natural talent, a good thought process for debugging, and creatively designing
+               functional code, I have thus far thrived within the space. My passion for this creative process has only grown in the time I've spent with it, and is
+               immensly rewarding for me.</p>
+            </div>
+            <div class="item">
+              <h3>
+              <p>
