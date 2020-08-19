@@ -61,6 +61,18 @@ p {
   margin: 10px;
 }
 
+a:link{
+  color: #457BD9D;
+}
+a:visited{
+  color: #A8DADC;
+}
+a:hover{
+  color: #1D3557;
+}
+a:active{
+  color: #E63946;
+}
 @media all and (min-width: 1000px){
   section {
     padding: 0 10%;
