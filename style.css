@@ -82,7 +82,7 @@ a:active{
   }
   
   .group {
-    flex-direction: row;
+    flex-flow: row wrap;
   }
   
   h1 h2 {
