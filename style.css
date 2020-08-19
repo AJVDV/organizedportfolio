@@ -54,6 +54,9 @@ p {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+  align-content: space-evenly;
+  align-items: space-evenly;
+  flex-wrap: wrap;
 }
 
 .item {
