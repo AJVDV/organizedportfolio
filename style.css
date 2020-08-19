@@ -61,7 +61,7 @@ p {
   margin: 10px;
 }
 
-@media all and (min-width: 600px){
+@media all and (min-width: 1000px){
   section {
     padding: 0 10%;
   }
