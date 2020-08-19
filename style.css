@@ -58,7 +58,7 @@ p {
 
 .item {
   flex: 1;
-  margin: 10px;
+  margin: 5px;
 }
 
 a:link{
@@ -87,5 +87,6 @@ a:active{
   }
   header nav{
     display: flex;
+    text-align: center;
     justify-content: center;
 }
